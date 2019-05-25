@@ -7,4 +7,9 @@ This assignment was done based on the following assumptions:
  6)A deck can be created regardless of any game being created.
  7) There are two implementations of GameManager, first fully synchronized version, GameManagerImpl
     second partial synchronized on a deck of card, ConcurrentGameManager. 
-10)The unit testing are majorly based on ConcurrentGameManager
+ 8)The unit testing are majorly based on ConcurrentGameManager
+ 9)A deck/game can be created by issuing a post to application URL and also adding a player or a deck to a game follows the same rule.
+10)A deck can be shuffled by issuing a put with gameID and deckID parameters to application URL.
+11)A card can be retrieved from a deck by issuing a get with gameID and deckID, and playerID parameter to application URL. Getting list of players, remainign cards, etc 
+are also having the dame pattern.
+12)Deleting a player or a game can be done by a delete to application URL.

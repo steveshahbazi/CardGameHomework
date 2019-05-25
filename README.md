@@ -19,3 +19,11 @@ You must provide the following operations:
 	-- Shuffle the game deck (shoe)
 	Shuffle returns no value, but results in the cards in the game deck being randomly permuted. Please do not use library-provided “shuffle” operations to implement this function. You may use library- provided random number generators in your solution.
 	Shuffle can be called at any time
+	
+	Following commands can be executed from http://localhost:8080/game
+	1) POST to above mentioned URL will create a new game.
+	2) GET to above mentioned URL with returned id will return the remaining cards in the game. ex http://localhost:8080/deck?gameID=1234
+	3) PUT to above mentioned URL with returned id will shuffle the deck providing the identifier of the deck. ex http://localhost:8080/deck?deckID=1234
+	and so on
+	Following commands can be executed from http://localhost:8080/deck
+	1) POST to above mentioned URL will create a new deck.
