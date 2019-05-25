@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="MyCardGameHomework_jar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../MyCardGameHomework/out/artifacts/MyCardGameHomework_jar" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/../MyCardGameHomework/out/artifacts/MyCardGameHomework_jar" recursive="false" />
+  </library>
+</component>
