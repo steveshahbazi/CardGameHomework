@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact name="MyCardGameHomework:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MyCardGameHomework_jar</output-path>
+    <root id="root">
+      <element id="archive" name="MyCardGameHomework.jar">
+        <element id="module-output" name="MyCardGameHomework" />
+      </element>
+      <element id="library" level="module" name="JUnit4" module-name="MyCardGameHomework" />
+    </root>
+  </artifact>
+</component>
