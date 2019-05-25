@@ -1,0 +1,10 @@
+This assignment was done based on the following assumptions:
+ 1)Once a deck of card was created, it can't be deleted. 
+ 2)An empty deck can not be deleted. 
+ 3)ٍEach game can have multiple players and multiple decks. 
+ 4)Shuffeling a deck can happen anytime. 
+ 5)Shuffling on an empty deck has no effect. 
+ 6)A deck can be created regardless of any game being created.
+ 7) There are two implementations of GameManager, first fully synchronized version, GameManagerImpl
+    second partial synchronized on a deck of card, ConcurrentGameManager. 
+10)The unit testing are majorly based on ConcurrentGameManager
