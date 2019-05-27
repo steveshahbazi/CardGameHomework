@@ -1,4 +1,4 @@
-package jive.restapi;
+package restapi;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
